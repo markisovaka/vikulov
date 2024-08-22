@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+
+    max-width: 1000px;
+    min-width: 1000px;
+    font-family: "Inter" sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 200px 0;
+
+}
+
+#read-more-link {
+    border: solid 5px black;
+    padding: 10px 20px;
+    border-radius: 1488px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+#description {
+    width: 520px;
+    font-size: larger;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul {
+    display: inline-block;
+
+    margin: 0;
+}
+
+nav {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1000;
+    top: 0;
+}
+
+
+#main-link {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#texture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+
+}
+
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 80px;
+
+}
+
+#about-me p {
+    font-size: 30px;
+    width: 400px;
+    float: right;
+    margin: 200px 0;
+}
+
+
+#about-me img {
+    height: 500px;
+}
+
+
+
+#about-me {
+    padding: 80px 0;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+#main .background {
+    top: 0;
+    height: 777;
+    background: linear-gradient(rgb(0, 255, 140), rgb(217, 255, 0));
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+
+#about-me .background {
+    top: 777px;
+    background-color: rgb(217, 255, 0);
+    height: 1080px;
+}
+
+#skills .background {
+    top: 1695px;
+    height: 801px;
+    background: linear-gradient(#810000, #000081);
+
+}
+
+#skills {
+    color: white;
+    padding: 120px 0;
+}
+
+#skills h2 {
+    text-align: right;
+}
+
+
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+
+#skills figure img {
+    height: 250px;
+    margin-bottom: 30px;
+
+}
+
+
+#skills figure figcaption {
+    font-size: 20px;
+}
+
+
+#project .background {
+    top: 2450px;
+    height: 801;
+    background-color: aqua;
+
+
+}
+
+
+
+#project p {
+    width: 50%;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+
+
+#project .gallery {
+    float: right;
+    width: 50%;
+}
+
+#project .gallery img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 27px;
+}
+
+
+#project {
+    padding: 50px 0;
+}
+
+
+#how .background {
+    top: 3250px;
+    height: 950px;
+    background: linear-gradient(#810000, #000081);
+
+}
+
+
+#how {
+    color: white;
+    padding: 300px 0;
+}
+
+
+
+
+#how img {
+    position: absolute;
+}
+
+#how h2 {
+    text-align: center;
+
+}
+
+
+
+#how ol {
+    font-size: larger;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+
+#how ol li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 10px 70px;
+}
+
+
+
+
+
+#how ol li:nth-child(even) {
+    right: -52%;
+}
+
+
+
+#how ol li:before {
+    content: counter(num);
+    counter-increment: num;
+    border: 15px solid white;
+    border-radius: 52%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -25;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    opacity: 80%;
+
+}
+
+
+
+
+#how img {
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 260px;
+    width: 1000px;
+    height: 250px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+#read-more-link:hover {
+    background-color: black;
+    color: aliceblue;
+}
